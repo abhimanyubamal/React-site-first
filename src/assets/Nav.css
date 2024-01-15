@@ -1,0 +1,25 @@
+a{
+    position: relative;
+}
+
+a::after{
+    display: block;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color: #BD7D41;
+    right: 0;
+    bottom: -5px;
+    transition: all linear 300ms;
+}
+
+a:hover::after{
+    width: 100%;
+    right: auto;
+    left: 0;
+}
+
+a:hover{
+    -webkit-text-stroke: 1px white;
+}

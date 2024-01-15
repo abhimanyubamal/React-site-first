@@ -1,0 +1,39 @@
+.slick-slide{
+    margin: 0 10.5px;
+}
+
+.slick-list{
+    margin: 0 -10.5px;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+}
+
+.col-4{
+    width: 33.33%;
+}
+
+.col-8{
+    width: 66.66%;
+}
+
+.about-slider .slick-slider,.about-slider .slick-track,.about-slider .slick-list{
+    max-height: 500px !important;
+}
+
+.second-slider .slick-slider, .second-slider .slick-track, .second-slider .slick-list {
+    max-height: 500px !important;
+}
+
+button{
+    transition: all 300ms linear;
+    border: 2px solid #BD7D41;
+}
+
+button:hover{
+    color: #BD7D41;
+    background-color: white;
+
+}
